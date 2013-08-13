@@ -20,7 +20,7 @@ mkdir -p ${store}/i-d/
 case "$1" in
 	help|--help|-h)
 		usage
-		return 0
+		exit 0
 		;;
 	type|--type|-t)
 		type="$2"
@@ -28,7 +28,7 @@ case "$1" in
 		;;
 	update|--update|-u)
 		update
-		return 0
+		exit 0
 		;;
 	*)
 		search $*
