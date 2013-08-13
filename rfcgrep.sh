@@ -1,6 +1,6 @@
 #!/bin/bash
 
-store="~/.rfcgrep"
+store="${HOME}/.rfcgrep"
 rsyncopts="-v -z --progress --stats"
 
 update()
