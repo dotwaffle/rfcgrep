@@ -11,7 +11,7 @@ update()
 
 search()
 {
-	grep "$*" ${store}/${type} | ${PAGER}
+	grep -R "$*" ${store}/${type} | ${PAGER}
 }
 
 mkdir -p ${store}/rfc/
